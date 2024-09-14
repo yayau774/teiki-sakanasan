@@ -10,11 +10,4 @@ export default defineNuxtConfig({
     modelsDir: 'models',
     devtools: false,
   },
-
-  runtimeConfig: {
-    public: {
-      uri: process.env.MONGODB_URI,
-    }
-  }
-
 })

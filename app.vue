@@ -1,7 +1,3 @@
-<script setup lang="ts">
-const rtCfg= useRuntimeConfig();
-console.log(rtCfg.public.uri)
-</script>
 <template>
   <div>
     <NuxtRouteAnnouncer />
